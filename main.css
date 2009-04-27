@@ -1,0 +1,128 @@
+body { 
+	text-align: center; 
+	font: 0.75em/1.5 'Lucida Grande', sans-serif; 
+	color: #333; 
+	background-color: white;
+}
+h1 {
+	color: #29A1C9;
+	font-size: 4em;
+	font-family: "Trebuchet MS", Trebuchet, Verdana, sans-serif;
+	border-bottom: 5px solid #C9298D;
+	margin-bottom: 0.25em;
+}
+form {
+	color: black;
+	background-color: #E3AECF;
+	padding: 0.1em 1em;
+	margin-bottom: 1em;
+}
+div#wrapper {
+	text-align: left;
+	margin: 0 auto;
+	width: 70%;
+	max-width: 60em;
+	font-size: 1.2em;
+}
+#footer {
+	border-top: 5px solid #C9298D;
+	margin-top: 3em;
+	padding-top: 0.5em;
+	text-align: right;
+	color: #C9298D;
+	font-family: "Trebuchet MS", Trebuchet, Verdana, sans-serif;
+}
+#powered-by {
+	float: left;
+}
+ol, li {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ol li {
+	clear: both;
+	overflow: auto;
+	width: 99%;
+	margin-bottom: 0.5em;
+	line-height: 1.2;
+	padding: 0.5em 0;
+	padding-right: 1%;
+	border-bottom: 1px solid #92C8DA;
+	border-top: 1px solid #92C8DA;
+}
+span.msg {
+}
+li.new {
+	background-color: #92C8DA;
+	color: black;
+}
+li img {
+	float: left;
+	clear: left;
+	margin: 0 1em 0 0.5em;
+}
+a:link,
+a:visited {
+	color: #1B6B86;
+}
+a:hover, 
+a:focus, 
+a:active {
+	color: #791955;
+}
+a.permalink:link,
+a.permalink:visited,
+a.permalink:hover,
+a.permalink:active,
+a.permalink:focus {
+	text-decoration: none;
+	color: #C9298D;
+	background-color: white;
+	padding: 1px 5px;
+	font-size: 0.6em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 0.7em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	position:relative;
+	top: -1px;
+	border: 1px solid #C9298D;
+}
+.new a.permalink:link,
+.new a.permalink:visited,
+.new a.permalink:hover {
+	border:1px solid white;
+}
+a.permalink:hover,
+a.permalink:active,
+a.permalink:focus {
+	color: white;
+	background-color: #C9298D;
+	border: 1px solid #C9298D;
+}
+a.x {
+	font-size: 0.65em;
+	vertical-align: top;
+	text-decoration: none;
+	color: red;
+}
+/* Loading indicator styles */
+a.loading {
+	background-image:url(spinner-white.gif);
+	background-repeat: no-repeat;
+	padding-right: 17px;
+	background-position: right;
+
+}
+li.new a.loading {
+	background-image:url(spinner-blue.gif);
+}
+
+p#showing {
+	margin-left: 1%;
+}

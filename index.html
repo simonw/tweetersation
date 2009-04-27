@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<title>Tweetersation</title>
+	<script type="text/javascript" src="jquery-1.2.6.js"></script>
+	<script type="text/javascript" src="tweetersation.js"></script>
+	<link rel="stylesheet" href="main.css" type="text/css" media="all">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>tweetersation</h1>
+	
+		<form action="" method="get">
+		    <p class="sorry">Sorry, this doesn't work without JavaScript</p>
+		    <p>
+		        <label for="username">Add a Twitter <strong>username</strong> to the timeline:</label> 
+		        <input type="text" name="username" id="username"> 
+		        <input type="submit" value="Go"> 
+		        <img id="loading-indicator" src="spinner-pink.gif" alt="Loading..." style="display: none">
+		    </p>
+		</form>
+		<ol>
+		    <li>
+		        <img alt="simonw" width="48" height="48" src="simonw.jpg">
+		        <strong class="username"><a class="t" href="http://twitter.com/simonw">simonw</a></strong>
+		        <span class="msg">welcome to tweetersation, a better way of following conversations on Twitter!</span>
+		    </li>
+			<li>
+		        <img alt="natbat" width="48" height="48" src="natbat.jpg">
+		        <strong class="username"><a class="t" href="http://twitter.com/natbat">Natbat</a></strong>
+		        <span class="msg">click on a person's @name or enter a username into the form above to add their tweets to the conversation.</span>
+		    </li>
+		</ol>
+		
+		<p id="footer"><span id="powered-by">Powered by <a href="http://twitter.com/">Twitter</a></span> a <a href="http://natimon.com/">natimon</a> project</p>
+	</div>
+</body>
+</html>
